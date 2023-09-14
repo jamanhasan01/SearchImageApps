@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Instrument Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+
+}
+div#searchImageApps {
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+div#searchImageApps h1 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+form {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+form input {
+    font-size: 18px;
+    padding: 12px 22px;
+    width: 80%;
+    border: none;
+    box-shadow: 0px 0px 16px rgb(203 203 203);
+    border-radius: 16px;
+    text-transform: capitalize;
+    outline: none;
+}button#SearchBtn {
+    font-size: 17px;
+    padding: 0px 13px;
+    background: black;
+    color: #ffffffe0;
+    border: none;
+    box-shadow: 0px 0px 16px rgb(126 124 124);
+    border-radius: 15px;
+    text-transform: capitalize;
+}
+.imageBoxwrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.singleImageBox {
+    flex-basis: 32%;
+    box-shadow: 0px 0px 16px rgb(203 203 203);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 17px;
+}
+.singleImageBox:last-child {
+    display: none;
+}
+.singleImageBox img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.singleImageBox a {
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 12px 9px;
+    font-size: 17px;
+    color: #363636e0;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+button#showMoreBtn {
+    margin: 0 auto;
+    padding: 13px 15px;
+    font-size: 21px;
+    font-weight: 500;
+    background: black;
+    color: #ffffffed;
+    border-radius: 12px;
+    border: none;
+    display: none;
+}

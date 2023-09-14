@@ -1,0 +1,72 @@
+
+@media screen and (width<600px) {
+    div#searchImageApps{
+        width: 98%;
+    }
+    div#searchImageApps h1 {
+        font-size: 24px;
+    }
+    form{width: 100%;padding: 33px 0px;}
+    form input {
+        width: 81%;
+        font-size: 19px;
+    }
+    button#SearchBtn{
+        font-size: 18px;
+    }
+    .singleImageBox{
+        flex-basis: 100%;
+    }
+    .singleImageBox:last-child {
+        display: block;
+    }
+    .singleImageBox img{
+        height: 180px;
+    }
+    .singleImageBox a {
+        font-size: 16px;
+        padding: 7px 8px;
+    }
+  }
+  
+  @media screen and (width > 601px) and (width<1024px) {
+    div#searchImageApps{
+        width: 98%;
+    }
+    div#searchImageApps h1 {
+        font-size: 39px;
+    }
+    form{width: 63%;padding: 32px 0px;}
+    form input {
+        width: 79%;
+        font-size: 15px;
+    }
+    button#SearchBtn{
+        font-size: 14px;
+    }
+    .singleImageBox{
+        flex-basis: 49%;
+    }
+    .singleImageBox:last-child {
+        display: block;
+    }
+    .singleImageBox img{
+        height: 180px;
+    }
+    .singleImageBox a {
+        font-size: 13px;
+        padding: 4px 8px;
+    }
+  }
+  
+  
+  @media screen and (width>1025px) and (width<1199px) {
+    .singleImageBox img{
+        max-height: 160px;
+    }
+    .singleImageBox a{
+        padding: 9px 9px;
+        font-size: 15px;
+    }
+  }
+  
